@@ -5,6 +5,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Стили для  header */
+
 .header {
   position: relative;
   display: flex;
@@ -55,7 +57,7 @@
 }
 
 .header__main-illustration {
-  background-image: url(/images/header-image.png);
+  background-image: url(../images/header-image.png);
   background-size: cover;
   width: 765px;
   height: 608px;
@@ -73,6 +75,8 @@
   top: 64px;
   right: 0;
 }
+
+/* Стили для секции description*/
 
 .description {
   margin: 100px auto 0;
@@ -119,6 +123,8 @@
   font-size: 24px;
   font-weight: 700;
 }
+
+/* Стили для digits*/
 
 .digits {
   margin: 100px auto;
@@ -180,6 +186,8 @@
   font-weight: normal;
 }
 
+/* Стили для feynman*/
+
 .feynman {
   height: 100vh;
   position: relative;
@@ -224,7 +232,7 @@
 }
 
 .feynman__main-illustration {
-  background-image: url(/images/feynman.png);
+  background-image: url(../images/feynman.png);
   background-size: cover;
   width: 867px;
   height: 637px;
@@ -232,6 +240,8 @@
   bottom: 0;
   left: 0;
 }
+
+/* Стили для kayfman*/
 
 .kayfman {
   position: relative;
@@ -273,7 +283,7 @@
   color: #f2f2f2;
 }
 .kayfman__triangle {
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
   width: 877px;
   height: 877px;
@@ -281,6 +291,8 @@
   top: 0px;
   right: -210px;
 }
+
+/* Стили для footer*/
 
 .footer {
   display: flex;
