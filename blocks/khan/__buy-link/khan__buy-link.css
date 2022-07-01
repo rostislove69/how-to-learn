@@ -1,0 +1,13 @@
+.book-container__buy-link {
+  text-decoration: none;
+  color: #2f80ed;
+  max-height: 40px;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.book-container__buy-link:hover {
+  opacity: .75;
+  transition: opacity .3s ease-in-out;
+}
